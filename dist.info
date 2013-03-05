@@ -1,0 +1,26 @@
+type = "x86"
+arch = "Windows"
+author = "Olivine Labs"
+depends = {
+[[lua >= 5.1]],
+}
+
+desc = "Lua String Hashing/Indexing Library"
+version = "1.2"
+maintainer = "Peter Drahoš"
+files = {
+Data = {
+[[share\say\LICENSE]],
+[[share\say\README.md]],
+[[share\say\CONTRIBUTING.md]],
+}
+,
+Unspecified = {
+[[lib\lua\say\init.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "say"
+url = "http://olivinelabs.com/busted/"
