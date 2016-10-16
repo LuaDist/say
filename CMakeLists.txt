@@ -10,4 +10,4 @@ include ( cmake/dist.cmake )
 include ( lua )
 
 install_lua_module ( say.init src/init.lua )
-install_data ( LICENSE README.md CONTRIBUTING.md )
+install_data ( CONTRIBUTING.md README.md LICENSE )
